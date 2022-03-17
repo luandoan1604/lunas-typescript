@@ -1,4 +1,6 @@
 //bai 1
+//1. Sử dụng number, string, boolean
+
 let number1:number = 5;
 let number2:number = 2.8;
 let phrase:string = 'Result is ';
@@ -11,17 +13,17 @@ if(permit){
     console.log('not show result');
 }
 
-//bai 2
+//2. Type inference
 
-function add (x=5){
+function add(x=5){
     let phrase = 'Result is ';
     phrase = '10';
     x = 2.8;
-    return phrase +x;
+    return phrase + x;
 }
-let result1: string = add();
+let result1:string = add();
 
-//bai 3
+//3. Object
 
 var person : {
     name:string,
@@ -37,7 +39,7 @@ console.log(person.name);
 console.log(person.age);
 
 //bai 4
-//1 Array, tuple, any, enum
+//1. Array, tuple, any, enum
 
 enum Role {ADMIN, READ_ONLY, AUTHOR};
 const person1:{
@@ -70,7 +72,7 @@ console.log(person1.roletuple);
 person1.roletuple = [0, 'admin', 'user'];
 console.log(person1.roletuple);
 
-//2 Literal type & custom type
+//2. Literal type & custom type
 
 type Combinable = number | string;
 function combine(input1:string, input2:string, resultConversion:'as-number'|'as-text') {
@@ -90,6 +92,17 @@ console.log(combineStringNumber);
 const combineText = combine('typescript vs ', 'javascript', 'as-text');
 console.log(combineText);
 
+//3. Num & undefined
+
+var a = null;
+console.log(a);
+console.log(typeof(a));
+
+var b;
+console.log(b);
+console.log(typeof(a));
+// console.log(undeclaredVar);
+
 //4 Unknown & any
 let userInput:unknown;
 let userName:string;
@@ -101,3 +114,5 @@ userName = <string> userInput;
 if(typeof userInput === 'string'){
     userName = userInput;
 }
+
+//Bài 3: Project LEARNING-TYPESCRIPT

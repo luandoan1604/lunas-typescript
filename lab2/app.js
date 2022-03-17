@@ -1,4 +1,5 @@
 //bai 1
+//1. Sử dụng number, string, boolean
 var number1 = 5;
 var number2 = 2.8;
 var phrase = 'Result is ';
@@ -10,7 +11,7 @@ if (permit) {
 else {
     console.log('not show result');
 }
-//bai 2
+//2. Type inference
 function add(x) {
     if (x === void 0) { x = 5; }
     var phrase = 'Result is ';
@@ -19,7 +20,7 @@ function add(x) {
     return phrase + x;
 }
 var result1 = add();
-//bai 3
+//3. Object
 var person;
 person = {
     name: "typescript",
@@ -28,7 +29,7 @@ person = {
 console.log(person.name);
 console.log(person.age);
 //bai 4
-//1 Array, tuple, any, enum
+//1. Array, tuple, any, enum
 var Role;
 (function (Role) {
     Role[Role["ADMIN"] = 0] = "ADMIN";
@@ -71,6 +72,14 @@ var combineStringNumber = combine('30', '26', 'as-number');
 console.log(combineStringNumber);
 var combineText = combine('typescript vs ', 'javascript', 'as-text');
 console.log(combineText);
+//3. Num & undefined
+var a = null;
+console.log(a);
+console.log(typeof (a));
+var b;
+console.log(b);
+console.log(typeof (a));
+// console.log(undeclaredVar);
 //4 Unknown & any
 var userInput;
 var userName;
@@ -81,3 +90,4 @@ userName = userInput;
 if (typeof userInput === 'string') {
     userName = userInput;
 }
+//Bài 3: Project LEARNING-TYPESCRIPT
