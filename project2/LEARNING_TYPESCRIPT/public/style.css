@@ -1,4 +1,13 @@
-#app {
+h1{
+    margin: 10px 0;
+    text-align: center;
+    font-family: serif;
+    background: yellowgreen;
+    padding: 5px 0;
+    font-size: 25px;
+    color: white;
+}
+#app{
     width: 90%;
     margin: 0 auto;
     min-height: 400px;
@@ -6,18 +15,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
-h1 {
-    margin: 10px 0;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    background: linear-gradient(90deg, #0ce217 0%, #d2e909 100%);
-    padding: 5px 0;
-    font-size: 25px;
-    color: whitesmoke;
-}
-
-.item {
+.item{
     width: 18%;
     min-height: 50px;
     margin: 10px;
@@ -27,11 +25,11 @@ h1 {
     position: relative;
 }
 
-.item h3 {
+.item h3{
     margin: 0;
 }
 
-.item span {
+.item span{
     position: absolute;
     left: 0;
     top: 0;
