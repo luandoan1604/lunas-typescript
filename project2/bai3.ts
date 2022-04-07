@@ -1,3 +1,4 @@
+//Object
 var person:{
     name:string,
     age:number

@@ -1,4 +1,5 @@
 "use strict";
+//Sử dụng number, string, boolean
 let number1 = 5;
 let number2 = 5;
 let phrase = 'Result is ';

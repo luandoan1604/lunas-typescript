@@ -1,0 +1,83 @@
+.gameItem{
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+    background: #ddd;
+}
+
+.row{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.unmatched{
+    background-color: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    font-size: 24px;
+}
+
+button{
+    text-transform: capitalize;
+}
+
+input{
+    text-transform: none;
+}
+
+.reset{
+    margin-top: 4rem 0 0;
+}
+
+h1{
+    color: yellow;
+    margin: 3rem 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#board{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mt{
+    margin-top: 3rem;
+}
+
+body{
+    background: url(./../images/nhung-anh-pokemon-dep-cute-lam-hinh-nen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 100vh;
+}
+
+small{
+    color: red;
+}
+
+.form{
+    margin-top: 50%;
+}

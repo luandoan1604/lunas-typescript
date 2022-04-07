@@ -1,4 +1,5 @@
 "use strict";
+//Object
 var person;
 person = {
     name: "typescript",
