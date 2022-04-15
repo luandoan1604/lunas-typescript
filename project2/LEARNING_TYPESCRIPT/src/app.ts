@@ -2,7 +2,7 @@ function handleData(obj: {id:number, name: string, image: string}){
     let app = document.querySelector('#app');
     let div = document.createElement('div');
     let str =   `<span>#${obj.id}</span>
-                    <img src="${obj.image}" alt="error">
+                    <img src="${obj.image}" alt="">
                 <h3>${obj.name}</h3>`;
     div.className = "item";
     div.innerHTML = str;
